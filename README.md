@@ -67,3 +67,4 @@ Practiced modern front-end development skills using HTML5 and CSS3.
 Implemented responsive design, Flexbox, and class-based styling for UI components.​
 
 The structure and appearance closely match Myntra's real homepage for practical UI experience.
+
