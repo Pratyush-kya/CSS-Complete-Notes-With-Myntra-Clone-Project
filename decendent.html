@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector Example</title>
+    <style>
+        /* Styles all 'p' elements that are descendants of a 'div' */
+        div p{
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* Styles 'span' elements that are descendants of an element with the class 'container' */
+        .container span {
+            background-color: lightgreen;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>This paragraph is inside a div.</p>
+        <div>
+            <p>This paragraph is also inside a div (and a nested div).</p>
+            <span>This span is inside a nested div within a container.</span>
+        </div>
+    </div>
+
+    <p>This paragraph is NOT inside a div.</p>
+
+    <span>This span is NOT inside a container.</span>
+
+</body>
+</html>

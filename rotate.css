@@ -1,0 +1,33 @@
+ .box{
+            height: 50px;
+            width: 50px;
+            padding: 5px;
+            margin: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            transition: all 1s ease-in-out;
+        }
+        #box1{
+            background-color: greenyellow;
+        }
+        #box1:hover{
+            transform: rotate(45deg);
+        }
+        #box2{
+            background-color: rgb(248, 47, 255);
+        }
+        #box2:hover{
+            transform: rotate(190deg);
+        }
+        #box3{
+            background-color: rgb(255, 92, 47);
+        }
+        #box3:hover{
+            transform: rotatex(45deg);
+        }
+        #box4{
+            background-color: rgb(255, 47, 141);
+        }
+        #box4:hover{
+            transform: rotatey(45deg);
+        }

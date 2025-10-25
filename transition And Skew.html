@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .pseudo{
+            height: 25px;
+            width: 150px;
+            background-color: forestgreen;
+            border: 2px solod black;
+            border-radius: 10px;
+
+           transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            /*transition: all 1s ease-in-out 1s*/
+        }
+        .pseudo:hover{
+            background-color: rgb(30, 255, 0);
+            height: 40px;
+            width: 200px;
+        }
+        .pseudo:focus{
+            background-color: rgb(15, 243, 83);
+        }
+        .pseudo:active{
+              height: 40px;
+            width: 200px;
+            background-color: rgb(37, 11, 227);
+        }
+    </style>
+</head>
+<body>
+    <button class="pseudo">Learning Transition</button>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#right{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border: 2px solid red;
+}
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#to{
+    width: 20%;
+    height: 10%;
+    object-fit: cover;
+}

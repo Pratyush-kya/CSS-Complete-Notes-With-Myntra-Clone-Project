@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Property</title>
+    <style>
+        *{
+            margin: 0%; padding: 0%;
+        }
+#border{
+    height: 50px;
+    width: 50px;
+    border: 5px dashed red;
+    background-color: aqua;
+    border-radius: 12px;
+     text-align: center;
+}
+#border1{
+    height: 50px;
+    width: 50px;
+    border: 5px dotted rgb(14, 213, 50);
+    /*You can define the border and what be it solid dotted or double and many more and we can also give the color.*/
+    background-color: rgb(169, 217, 11);
+    border-radius: 30px;
+     text-align: center;
+}
+#border2{
+    height: 60px;
+    width: 60px;
+    border: 5px solid rgb(232, 18, 18);
+    background-color: rgb(227, 6, 176);
+    border-radius: 5px;
+    /*Bordr Radious is used for scaling the radious to make it more rounded to get a better look.*/
+    text-align: center;
+}
+#border3{
+    height: 50px;
+    width: 50px;
+    border: 5px dashed red;
+    background-color: aqua;
+    border-radius: 12px;
+    box-sizing: border-box;
+    /*box-sizing is used here but it can change the hight and weight of the box according to the borde.*/
+     text-align: center;
+}
+#border4{
+    height: 50px;
+    width: 50px;
+    border: 5px dashed red;
+    background-color: aqua;
+    border-radius: 12px;
+    box-sizing: content-box;
+   /*box-sizing is used to keep the shape  of the box as same as it was and apply the border according to that.*/
+     text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div id="border">Border Property</div><br>
+    <div id="border1">Border Property One</div><br>
+    <div id="border2">Border Property Two</div><br>
+    <div id="border3">Border Property Three</div><br>
+    <div id="border4">Border Property Four</div>
+</body>
+</html>
